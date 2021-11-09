@@ -1,0 +1,129 @@
+/* Dark Mode Variables */
+:root {
+  color-scheme: dark !important;
+
+  --pFBbo-background: #171717 !important;
+  --pFBbo-color: #ffffff !important;
+  --ic-brand-font-color-dark: #ffffff !important;
+  --ic-brand-global-nav-bgd: #1f1f1f !important;
+  --ic-brand-global-nav-logo-bgd: #1f1f1f !important;
+  --dIgyp-background: transparent !important;
+  --dIgyp-color: #ffffff !important;
+  --eHiXd-iconColor: #ffffff !important;
+  --eHiXd-linkColor: #ffffff !important;
+  --ekpsc-borderColor: #2c2c2c !important;
+  --bIrId-borderColor: #2c2c2c !important;
+  --blnAQ-borderColor: #2c2c2c !important;
+  --enRcg-secondaryColor: #777777 !important;
+  --bIrId-secondaryColor: #ffffff !important;
+  --dLyYq-background: #171717 !important;
+  --cRLeC-colorPrimary: #ffffff !important;
+  --cVzyw-color: #ffffff !important;
+  --eHiXd-lightBackground: transparent !important;
+  --eHiXd-lightBorderColor: #2c2c2c !important;
+  --eHiXd-lightColor: #333333 !important;
+  --fLzZc-background: #1f1f1f !important;
+  --jpyTq-color: #ffffff !important;
+  --fOyUs-color: #ffffff !important;
+  --fbyHH-color: #ffffff !important;
+  --fQfxa-secondaryGhostColor: #ffffff !important;
+  --eHiXd-iconHoverColor: #f3f3f3 !important;
+  --dpCPB-borderColor: #3e3e3e !important;
+  --dpCPB-color: #ffffff !important;
+  --dpCPB-background: #2c2c2c !important;
+  --dqmEK-arrowBorderColor: #2c2c2c !important;
+  --dqmEK-arrowBackgroundColor: #2c2c2c !important;
+  --fOyUs-borderColorPrimary: #2c2c2c !important;
+  --dCppM-defaultBackground: #2c2c2c !important;
+  --ofhgV-defaultColor: #ffffff !important;
+  --dpCPB-background: #2c2c2c !important;
+  --ofhgV-defaultSelectedBorderColor: #ffffff !important;
+  --fOyUs-backgroundPrimary: #2c2c2c !important;
+  --fOyUs-focusColorInfo: transparent !important;
+  --yyQPt-background: #171717 !important;
+}
+
+body {
+  background-color: #171717 !important;
+}
+
+* {
+  outline: none !important;
+}
+
+a {
+  color: #ffffff !important;
+}
+
+hr {
+  border-color: #2c2c2c !important;
+}
+
+.tray-with-space-for-global-nav > div > div {
+  display: none !important;
+}
+
+#dashboard_header_container > div {
+  background-color: #171717f5 !important;
+  border-color: #2c2c2c !important;
+}
+
+#ajas-search01 {
+  background-color: #171717 !important;
+  border-color: #2c2c2c !important;
+}
+
+.ajas-search-widget__form input:focus + .ajas-search-widget__btn--search {
+  background: transparent !important;
+}
+
+#new_activity_button {
+  --feqxT-color: #2c2c2c;
+  --feqxT-background: #ffffff !important;
+}
+
+#new_activity_button:hover {
+  background-color: #f6f6f6 !important;
+}
+
+.ic-app-footer {
+  display: none !important;
+}
+
+.Grouping-styles__overlay {
+  background-color: #2c2c2c !important;
+}
+
+.Grouping-styles__items {
+  border-color: #2c2c2c !important;
+}
+
+.Grouping-styles__hero {
+  background-image: none !important;
+}
+
+.Grouping-styles__title {
+  background-color: transparent !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  max-height: unset !important;
+  justify-content: center !important;
+}
+
+.Grouping-styles__title::after {
+  display: none !important;
+}
+
+.CompletedItemsFacade-styles__contentPrimary > div {
+  --MlJlv-textColor: #ffffff !important;
+  --MlJlv-iconColor: #ffffff !important;
+}
+
+#dashboard-planner + div:not(#dashboard-activity) {
+  display: none !important;
+}

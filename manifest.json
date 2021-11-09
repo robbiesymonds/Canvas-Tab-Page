@@ -9,7 +9,7 @@
     "48": "src/assets/icons/logo48.png",
     "128": "src/assets/icons/logo128.png"
   },
-  "permissions": ["storage"],
+  "permissions": ["storage", "activeTab", "scripting"],
   "host_permissions": ["*://*/*"],
   "chrome_url_overrides": {
     "newtab": "src/index.html"
@@ -20,5 +20,8 @@
       "js": ["src/assets/js/chegg.js"],
       "run_at": "document_end"
     }
-  ]
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
 }
