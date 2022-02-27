@@ -4,8 +4,8 @@ async function currentTab() {
 }
 
 chrome.tabs.onUpdated.addListener(async () => {
-  chrome.storage.sync.get(["canvasURL", "darkMode"], async (res) => {
-    if (res.canvasURL && res.darkMode) {
+  chrome.storage.sync.get(["canvasURL", "canvasDarkMode"], async (res) => {
+    if (res.canvasURL && res.canvasDarkMode) {
       const tab = await currentTab();
       if (tab?.url?.length > 0 && tab.url.replace(/\/$/, "") == res.canvasURL) {
         chrome.scripting.insertCSS({

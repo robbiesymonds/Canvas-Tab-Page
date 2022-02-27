@@ -462,6 +462,12 @@ body {
   border-color: var(--theme-highlight);
 }
 
+/* per switch override */
+#canvas-theme-toggle[data-checked="true"] {
+  background-color: #4a91fc;
+  border-color: #4a91fc;
+}
+
 .switch[data-checked="true"]::after {
   left: 1.5rem;
 }

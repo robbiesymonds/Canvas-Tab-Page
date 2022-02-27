@@ -185,6 +185,17 @@ document.getElementById("url-input").addEventListener("change", (e) => {
     .setAttribute("href", `${e.target.value}/courses`);
 });
 
+// Canvas Dark Mode
+document.getElementById("canvas-theme-toggle").addEventListener("click", (e) => {
+  chrome.storage.sync.set({ canvasDarkMode: e.target.getAttribute("data-checked") == "true" });
+});
+
+chrome.storage.sync.get(["canvasDarkMode"], (result) => {
+  if (result.canvasDarkMode) {
+    document.getElementById("canvas-theme-toggle").setAttribute("data-checked", true);
+  }
+});
+
 // Canvas API
 let TOKEN = null;
 let URL = null;
